@@ -18,7 +18,8 @@ class Calculator:
 x = int(input("Enter a value for x: "))
 y = int(input("Enter a value for y: "))
 
+calc = Calculator(x, y)
+
 if __name__ == "__main__":
     say_hello()
-    calc = Calculator(x, y)
     print(f"The result is {calc.add()}")
